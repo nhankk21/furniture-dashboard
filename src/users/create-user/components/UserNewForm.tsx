@@ -20,7 +20,7 @@ import RHFSelectSingleValue from './RHFSelectPagination';
 const ProductNewForm = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams(); //git remote add origin git@github.com:dangsangn/admin-furnitere.git
+  const [searchParams] = useSearchParams(); 
   const idUser = searchParams.get('id');
 
   const { showErrorSnackbar, showSuccessSnackbar } = useShowSnackbar();
